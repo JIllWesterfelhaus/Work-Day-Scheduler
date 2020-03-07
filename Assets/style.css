@@ -12,6 +12,7 @@ body {
   padding: 10px;
   height: 80px;
   width: 700px;
+  justify-content: center;
 }
 
 .jumbotron {
@@ -69,6 +70,7 @@ body {
   color: white;
   height: 80px;
   width: 80px;
+  justify-content: right;
 }
 
 .saveBtn i:hover {
