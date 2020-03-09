@@ -1,12 +1,16 @@
 //set up local storage
 
+
+
+
 $(function () {
 
-    $("#saveBtn").click(function () {
-        var calEntry = $("#saveBtn").val();
-        alert(calEntry);
-        localStorage.setItem("",calEntry);
-    });
+$("#saveBtn").click(function () {
+ var calEntry = $("#saveBtn").val();
+ alert(calEntry);
+ localStorage.setItem("",calEntry);
+ document.getElementById("").innerHTML = localStorage.getItem("");
+});
 });
 
 
