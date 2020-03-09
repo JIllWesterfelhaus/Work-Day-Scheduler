@@ -1,14 +1,13 @@
-var textInput = document.querySelector("")
-var saveButton = document.querySelector("#saveBtn");
-function renderLastRegistered
-var text=localStorage.getItem("text");
-.saveButton.addEventListener("click",function(event) {
-localStorage.setItem("text",text);
-renderLastRegistered();
-}):
+//set up local storage
 
+$(function () {
 
-
+    $("#saveBtn").click(function () {
+        var calEntry = $("#saveBtn").val();
+        alert(calEntry);
+        localStorage.setItem("",calEntry);
+    });
+});
 
 
 (function (global, factory) {
