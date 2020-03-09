@@ -1,10 +1,10 @@
 //set up local storage
 
-var calEntry =$("#textarea")
-saveBtn.addEventListener('click'),function(event);
-event.click.saveBtn;
+//var calEntry =$("#textarea")
+//saveBtn.addEventListener('click'),function(event)
+//event.click.saveBtn;
 
-
+//# sourceMappingURL=./moment-business.js.map
 (function (global, factory) {
     typeof exports === "object" && typeof module !== "undefined" ? module.exports = factory(require("contained-periodic-values")) : typeof define === "function" && define.amd ? define(["contained-periodic-values"], factory) : global.momentBusiness = factory(global.containedPeriodicValues);
 })(this, function (containedPeriodicValues) {
