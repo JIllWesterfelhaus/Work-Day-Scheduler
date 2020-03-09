@@ -1,17 +1,8 @@
 //set up local storage
 
-
-
-
-$(function () {
-
-$("#saveBtn").click(function () {
- var calEntry = $("#saveBtn").val();
- alert(calEntry);
- localStorage.setItem("",calEntry);
- document.getElementById("").innerHTML = localStorage.getItem("");
-});
-});
+var calEntry =$("#textarea")
+saveBtn.addEventListener('click'),function(event);
+event.click.saveBtn;
 
 
 (function (global, factory) {
