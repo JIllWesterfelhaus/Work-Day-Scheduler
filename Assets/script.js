@@ -1,6 +1,12 @@
-localStorage.saveBtn = "Save";
+var saveBtn=document.querySelector(".saveBtn");
+function renderLastRegistered
+var text=localStorage.getItem("text");
 
+.saveBtn.addEventListener("click",function(event) {
 
+localStorage.setItem("saveBtn",saveBtn);
+renderLastRegisterede();
+}):
 
 (function (global, factory) {
     typeof exports === "object" && typeof module !== "undefined" ? module.exports = factory(require("contained-periodic-values")) : typeof define === "function" && define.amd ? define(["contained-periodic-values"], factory) : global.momentBusiness = factory(global.containedPeriodicValues);
