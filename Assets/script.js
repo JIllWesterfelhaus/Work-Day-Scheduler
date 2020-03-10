@@ -1,33 +1,85 @@
-//Set up save to local storage.
-/*$(document).ready(function)()  {
-console.log(localStorage.getItem('text'))
-$('#saveBtn').on('click', function(e) {
-console.log($(document.getElementById('text'))
+let inputArray = []
+$('.saveBtnnine').on('click', function(e) {
+ e.preventDefault();
+ var input = $('#nine').val();
+ inputArray.push (input)
+ textField = localStorage.getItem('items')
+ var parsedObject = JSON.parse(textField)
+ if (input === null) {
+ $('#nine').val(parsedObject)
+}
+ localStorage.setItem('items',JSON.stringify(inputArray))
+ 
 })
-})
 
-$(function () {
-    $('text').click(function () {
-        var name = $('text').val();
-        alert(text);
-        localStorage.setItem('text',text);
-    });
-});
+$('.saveBtnten').on('click', function(e) {
+    e.preventDefault();
+    var input = $('#ten').val();
+    inputArray.push (input)
+    localStorage.setItem('items',JSON.stringify(inputArray))
+    console.log(input);  console.log('hello')
+    console.log(inputArray)
+   })
 
-// get the text
-var text = $('#test').text();
-// set the item in localStorage
-localStorage.setItem('test', text);
-// bind text to 'click' event for div
-$('#test').on('click', function() {
-    // check the new text
-    var newText = $(this).text();
-    // overwrite the old text
-    localStorage.setItem('test', newText);
-    // test if it works
-    alert(localStorage.getItem('test'));
-});*/
+   $('.saveBtneleven').on('click', function(e) {
+    e.preventDefault();
+    var input = $('#eleven').val();
+    inputArray.push (input)
+    localStorage.setItem('items',JSON.stringify(inputArray))
+    console.log(input);  console.log('hello')
+    console.log(inputArray)
+   })
 
+   $('.saveBtntwelve').on('click', function(e) {
+    e.preventDefault();
+    var input = $('#twelve').val();
+    inputArray.push (input)
+    localStorage.setItem('items',JSON.stringify(inputArray))
+    console.log(input);  console.log('hello')
+    console.log(inputArray)
+   })
 
+   $('.saveBtnone').on('click', function(e) {
+    e.preventDefault();
+    var input = $('#one').val();
+    inputArray.push (input)
+    localStorage.setItem('items',JSON.stringify(inputArray))
+    console.log(input);  console.log('hello')
+    console.log(inputArray)
+   })
 
+   $('.saveBtntwo').on('click', function(e) {
+    e.preventDefault();
+    var input = $('#two').val();
+    inputArray.push (input)
+    localStorage.setItem('items',JSON.stringify(inputArray))
+    console.log(input);  console.log('hello')
+    console.log(inputArray)
+   })
 
+   $('.saveBtnthree').on('click', function(e) {
+    e.preventDefault();
+    var input = $('#three').val();
+    inputArray.push (input)
+    localStorage.setItem('items',JSON.stringify(inputArray))
+    console.log(input);  console.log('hello')
+    console.log(inputArray)
+   })
+
+   $('.saveBtnfour').on('click', function(e) {
+    e.preventDefault();
+    var input = $('#four').val();
+    inputArray.push (input)
+    localStorage.setItem('items',JSON.stringify(inputArray))
+    console.log(input);  console.log('hello')
+    console.log(inputArray)
+   })
+
+   $('.saveBtnfive').on('click', function(e) {
+    e.preventDefault();
+    var input = $('#five').val();
+    inputArray.push (input)
+    localStorage.setItem('items',JSON.stringify(inputArray))
+    console.log(input);  console.log('hello')
+    console.log(inputArray)
+   })
