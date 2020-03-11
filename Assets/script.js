@@ -4,6 +4,10 @@ $('.saveBtnnine').on('click', function(e) {
  var input = $('#nine').val();
  inputArray.push(input)
  localStorage.setItem('items', JSON.stringify(inputArray))
+ if (localStorage.getItem('items')) {
+     items = JSON.parse(localStorage.getItem('items'))
+ }
+ JSON.parse(localStorage.getItem('items'))
  console.log(input); console.log('hello')
  console.log(inputArray)
 })
